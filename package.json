@@ -1,6 +1,6 @@
 {
-  "name": "restify_api",
-  "version": "1.0.0",
+  "name": "tiptop",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,9 +10,9 @@
     "lint-fix": "node_modules/eslint/.bin/eslint.js --fix*.js"
   },
   "keywords": [
-    "API",
-    "Restify",
-    "Backend"
+    "Frontend",
+    "Framework",
+    "JavaScript"
   ],
   "author": "Rakshith",
   "license": "MIT",
@@ -23,8 +23,6 @@
   "dependencies": {
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.7.7",
-    "mongoose-timestamp": "^0.6.0",
-    "restify": "^8.4.0",
-    "restify-errors": "^8.0.1"
+    "mongoose-timestamp": "^0.6.0"
   }
 }
