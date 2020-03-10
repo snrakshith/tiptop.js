@@ -1,28 +1,22 @@
 {
-  "name": "tiptop.js",
-  "version": "1.0.1",
-  "description": "",
+  "name": "js-boilerplate",
+  "version": "1.0.0",
+  "description": "A Basic JS Scaffolding",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js",
-    "lint": "node_modules/eslint/.bin/eslint.js *.js",
-    "lint-fix": "node_modules/eslint/.bin/eslint.js --fix*.js"
+    "test": "jest",
+    "start": "parcel src/public/index.html",
+    "build": "parcel build src/public/index.html"
   },
   "keywords": [
-    "Frontend",
-    "Framework",
-    "JavaScript"
+    "Js Projects"
   ],
-  "author": "Rakshith",
+  "author": "Rakshith SN",
   "license": "MIT",
   "devDependencies": {
     "eslint": "^6.6.0",
-    "nodemon": "^1.19.4"
+    "jest": "^24.9.0",
+    "parcel-bundler": "^1.12.4"
   },
-  "dependencies": {
-    "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.7.7",
-    "mongoose-timestamp": "^0.6.0"
-  }
+  "dependencies": {}
 }
