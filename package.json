@@ -1,12 +1,12 @@
 {
-  "name": "js-boilerplate",
+  "name": "tiptop.js",
   "version": "1.0.0",
-  "description": "A Basic JS Scaffolding",
+  "description": "JS Framework",
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start": "parcel src/public/index.html",
-    "build": "parcel build src/public/index.html"
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "keywords": [
     "Js Projects"
@@ -18,5 +18,8 @@
     "jest": "^24.9.0",
     "parcel-bundler": "^1.12.4"
   },
-  "dependencies": {}
+  "dependencies": {
+    "axios": "^0.19.2",
+    "typescript": "^3.8.3"
+  }
 }
